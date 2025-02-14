@@ -1,0 +1,73 @@
+body {
+    background-image: url('images/Cass.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: url('./images/Cass.jpg') no-repeat center center/cover, 
+                rgba(255, 255, 255, 0.5);
+ padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    }
+ h1, h2 {
+    color: hotpink;
+}
+p {
+    font-size: 18px;
+    color: deeppink;
+}
+
+/* Image Gallery */
+.gallery {
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Files Section */
+.files {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: hotpink;
+    font-weight: bold;
+}
+
+a:hover {
+    color: deeppink;
+}
